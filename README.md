@@ -5,6 +5,7 @@ Url-Shortner get long Url to short them
 - Spring Boot with java
 - internal hash map used for cache purpose
 - adding in mysql database 
+- Test case is pending
 
 ## Home 
     Welcome to Url Shortner Application
