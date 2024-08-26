@@ -2,11 +2,11 @@ package com.urlshortner.service;
 
 import com.urlshortner.dto.UrlCreateDto;
 import com.urlshortner.entity.UrlMap;
-import com.urlshortner.repository.UrlRepository;
-import jakarta.annotation.PostConstruct;
+import com.urlshortner.repository.UrlRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
 import java.util.HashMap;
 import java.util.UUID;
 
@@ -15,7 +15,7 @@ public class UrlService {
 
     public HashMap<String, String> urlMap = new HashMap<>();
     @Autowired
-    private UrlRepository urlRepo;
+    private UrlRepo urlRepo;
 
     @PostConstruct
     private void init() {

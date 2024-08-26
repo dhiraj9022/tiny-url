@@ -7,6 +7,5 @@ import lombok.*;
 @Getter
 @Setter
 public class UrlCreateDto {
-
     private String url;
 }

@@ -3,17 +3,16 @@ package com.urlshortner.controller;
 import com.urlshortner.dto.RespMsg;
 import com.urlshortner.dto.UrlCreateDto;
 import com.urlshortner.service.UrlService;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 
 @RestController
-@RequestMapping("/url-shortner")
+@RequestMapping("/api/v1/url-shortner")
 public class UrlController {
 
     @Autowired
