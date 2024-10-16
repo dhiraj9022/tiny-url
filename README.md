@@ -4,7 +4,7 @@ Url-Shortner get long Url to short them
 ## Tech Stack
 - Spring Boot with java
 - internal hash map used for cache purpose
-- adding in mysql database 
+- adding in postgres database 
 - Test case is pending
 
 ## Home 
